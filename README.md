@@ -1,5 +1,7 @@
 # Abdikarim Mohamed — Minimal Portfolio
 
+Abdikarim's 3rd iteration of his portfolio website.
+
 This site is intentionally simple:
 - Black & white palette (no gradients, no dark-mode default)
 - No external dependencies (no CDNs, no frameworks)
