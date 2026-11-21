@@ -4,14 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#ffffff" />
-    <title>Abdikarim Mohamed — Software Engineer · Minneapolis</title>
+    <title>Abdikarim Mohamed · Software Engineer · Minneapolis</title>
     <meta
       name="description"
       content="Software engineering work by Abdikarim Mohamed: real-time offers at Best Buy, public-service systems at Hennepin County, and thoughtful personal projects."
     />
     <link rel="canonical" href="https://abdikarim19.netlify.app/" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Abdikarim Mohamed — Software Engineer" />
+    <meta property="og:title" content="Abdikarim Mohamed · Software Engineer" />
     <meta
       property="og:description"
       content="Practical software, from real-time offers to the everyday details of splitting a bill. Selected work, experience, and contact."
@@ -43,7 +43,7 @@
           >Abdikarim Mohamed<span aria-hidden="true">.</span></a
         >
         <nav aria-label="Main navigation">
-          <a href="#work">Work</a><a href="#experience">Experience</a
+          <a href="#experience">Experience</a><a href="#work">Work</a
           ><a href="#about">About</a><a href="#contact">Contact</a>
           <a class="resume-nav" href="./assets/Abdikarim-Mohamed-Resume.pdf"
             >Résumé <span class="file-type">PDF</span></a
@@ -57,17 +57,11 @@
           <p class="eyebrow">
             Software engineer &amp; CS student · Minneapolis
           </p>
-          <h1 id="intro-heading">
-            Hi, I’m Abdikarim.<br />I build around <em>real life.</em>
-          </h1>
+          <h1 id="intro-heading">Hi, I’m Abdikarim.</h1>
           <p class="intro-text">
-            The wait at a service center. The offer a customer sees. The bill at
-            the end of dinner. I’m interested in the systems behind those
-            everyday moments—and making them work better.
-          </p>
-          <p class="now">
-            Studying computer science at Augsburg, graduating May 2028.<br />Previously
-            at Best Buy and Hennepin County. Currently building Dutchie.
+            I’m a computer science student at Augsburg University. I’ve worked
+            on customer offers at Best Buy and live queue data at Hennepin
+            County. I’m currently building Dutchie, a bill-splitting app.
           </p>
           <div class="intro-links">
             <a href="#work">Explore my work</a
@@ -86,6 +80,95 @@
             Abdikarim Mohamed<br /><span>Minneapolis, Minnesota</span>
           </figcaption>
         </figure>
+      </section>
+      <section
+        id="experience"
+        class="section"
+        aria-labelledby="experience-heading"
+      >
+        <div class="section-heading">
+          <h2 id="experience-heading">Experience</h2>
+          <p>From school devices to customer-facing systems.</p>
+        </div>
+        <ol class="experience-list">
+          <li class="experience-row">
+            <div class="timeline-logo">
+              <img
+                src="./assets/best-buy-logo.png"
+                width="64"
+                height="64"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="experience-content">
+              <p class="experience-date">Jun–Aug 2026</p>
+              <h3>Best Buy</h3>
+              <p class="role">Software Engineer Intern · Richfield, MN</p>
+              <p>
+                I engineered a personalized Real-Time Offer for customers. Eight
+                behavioral eligibility rules used real-time engagement signals
+                to decide when an offer should reach a customer.
+              </p>
+              <p>
+                Delivery needed guardrails, too. I added user-level offer
+                history in GCP, using TTL expiration and a read-before-qualify
+                pattern to filter previously served offers.
+              </p>
+            </div>
+          </li>
+          <li class="experience-row">
+            <div class="timeline-logo">
+              <img
+                src="./assets/hennepin-logo.webp"
+                width="64"
+                height="64"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="experience-content">
+              <p class="experience-date">Dec 2025–May 2026</p>
+              <h3>Hennepin County</h3>
+              <p class="role">Software Engineering Intern · Minneapolis, MN</p>
+              <p>
+                I integrated Qmatic Orchestra REST APIs into a legacy Java
+                application so county websites and service-center displays could
+                show live queue data instead of delayed reporting.
+              </p>
+              <p>
+                The work supported queue visibility for
+                <strong
+                  >1,000+ daily visitors across five service centers</strong
+                >. This made the same current information available wherever
+                people checked.
+              </p>
+            </div>
+          </li>
+          <li class="experience-row">
+            <div class="timeline-logo">
+              <img
+                src="./assets/ais-logo.jpg"
+                width="64"
+                height="64"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="experience-content">
+              <p class="experience-date">Jun 2022–Aug 2023</p>
+              <h3>Alternative Information Systems</h3>
+              <p class="role">Technical Program Manager Intern · Buffalo, NY</p>
+              <p>
+                I coordinated five technicians with site IT leads to complete
+                device migrations at <strong>15 public schools</strong> on time.
+                Agile sprints, asset tracking, and secure wiping supported
+                deployment of
+                <strong>20,000+ refurbished laptops per summer</strong>.
+              </p>
+            </div>
+          </li>
+        </ol>
       </section>
       <section id="work" class="section" aria-labelledby="work-heading">
         <div class="section-heading">
@@ -212,69 +295,6 @@
           </div>
         </article>
       </section>
-      <section
-        id="experience"
-        class="section"
-        aria-labelledby="experience-heading"
-      >
-        <div class="section-heading">
-          <h2 id="experience-heading">Experience</h2>
-          <p>From school devices to customer-facing systems.</p>
-        </div>
-        <ol class="experience-list">
-          <li class="experience-row">
-            <div class="experience-date">Jun–Aug 2026</div>
-            <div>
-              <h3>Best Buy</h3>
-              <p class="role">Software Engineer Intern · Richfield, MN</p>
-              <p>
-                I engineered a personalized Real-Time Offer that generated
-                <strong>$110K in incremental revenue</strong>. Eight behavioral
-                eligibility rules used real-time engagement signals to decide
-                when an offer should reach a customer.
-              </p>
-              <p>
-                Delivery needed guardrails, too. I added user-level offer
-                history in GCP, using TTL expiration and a read-before-qualify
-                pattern to filter previously served offers.
-              </p>
-            </div>
-          </li>
-          <li class="experience-row">
-            <div class="experience-date">Dec 2025–May 2026</div>
-            <div>
-              <h3>Hennepin County</h3>
-              <p class="role">Software Engineering Intern · Minneapolis, MN</p>
-              <p>
-                I integrated Qmatic Orchestra REST APIs into a legacy Java
-                application so county websites and service-center displays could
-                show live queue data instead of delayed reporting.
-              </p>
-              <p>
-                The work supported queue visibility for
-                <strong
-                  >1,000+ daily visitors across five service centers</strong
-                >—making the same current information available wherever people
-                checked.
-              </p>
-            </div>
-          </li>
-          <li class="experience-row">
-            <div class="experience-date">Jun 2022–Aug 2023</div>
-            <div>
-              <h3>Alternative Information Systems</h3>
-              <p class="role">Technical Program Manager Intern · Buffalo, NY</p>
-              <p>
-                I coordinated five technicians with site IT leads to complete
-                device migrations at <strong>15 public schools</strong> on time.
-                Agile sprints, asset tracking, and secure wiping supported
-                deployment of
-                <strong>20,000+ refurbished laptops per summer</strong>.
-              </p>
-            </div>
-          </li>
-        </ol>
-      </section>
       <section id="about" class="section" aria-labelledby="about-heading">
         <div class="section-heading">
           <h2 id="about-heading">A little more context</h2>
@@ -308,11 +328,7 @@
           <div class="about-notes">
             <div>
               <h3>Augsburg University</h3>
-              <p>
-                B.S. Computer Science · Data Science minor<br /><strong
-                  >Expected May 2028</strong
-                >
-              </p>
+              <p>B.S. Computer Science · Data Science minor</p>
               <p class="secondary">
                 Coursework in AI, data structures and algorithms,
                 object-oriented programming, and software engineering.

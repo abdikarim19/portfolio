@@ -22,6 +22,11 @@ const assert = require("node:assert/strict");
   for (const width of [320, 390, 768, 1440]) {
     await page.setViewportSize({ width, height: width === 1440 ? 1000 : 844 });
     await page.goto("http://127.0.0.1:8000/", { waitUntil: "networkidle" });
+    for (const img of await page.locator('img').all()) {
+      await img.scrollIntoViewIfNeeded();
+      await img.evaluate(element => element.decode());
+    }
+    await page.evaluate(() => scrollTo(0, 0));
     const layout = await page.evaluate(() => ({
       width: innerWidth,
       scrollWidth: document.documentElement.scrollWidth,
