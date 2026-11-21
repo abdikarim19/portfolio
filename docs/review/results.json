@@ -1,0 +1,78 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "layout": {
+        "width": 320,
+        "scrollWidth": 320,
+        "images": true,
+        "anchors": true
+      },
+      "violations": []
+    },
+    {
+      "width": 390,
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "images": true,
+        "anchors": true
+      },
+      "violations": []
+    },
+    {
+      "width": 768,
+      "layout": {
+        "width": 768,
+        "scrollWidth": 768,
+        "images": true,
+        "anchors": true
+      },
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "layout": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "images": true,
+        "anchors": true
+      },
+      "violations": []
+    }
+  ],
+  "consoleErrors": [],
+  "keyboard": "passed",
+  "reducedMotion": "passed",
+  "textZoom": {
+    "width": 640,
+    "scrollWidth": 640
+  },
+  "noJavaScript": "passed",
+  "resources": [
+    {
+      "resource": "styles.css",
+      "status": 200
+    },
+    {
+      "resource": "script.js",
+      "status": 200
+    },
+    {
+      "resource": "assets/portrait.webp",
+      "status": 200
+    },
+    {
+      "resource": "assets/favicon.svg",
+      "status": 200
+    },
+    {
+      "resource": "assets/Abdikarim-Mohamed-Resume.pdf",
+      "status": 200
+    },
+    {
+      "resource": "assets/social-preview.png",
+      "status": 200
+    }
+  ]
+}
