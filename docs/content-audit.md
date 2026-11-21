@@ -20,6 +20,8 @@ Reviewed 20 November 2026. Production is unchanged. All projects are unpublished
 Local source: `/Users/abdik/Dutchie/DUTCHIE`, inspected at `71fb2ff`.
 Repository: https://github.com/Mulla759/DUTCHIE
 
+The remote returns HTTP 404 to an unauthenticated visitor. Omit the public source link; describe source as not publicly available. Local code was available for verification.
+
 - `mockup/package.json`: Expo, React Native, TypeScript, Expo Router, Supabase client. Do not repeat the résumé's Next.js stack.
 - `mockup/src/lib/splitEngine.ts`: integer cents, largest-remainder distribution, deterministic tie-breaking, reconciliation or exception. Platform-independent calculation module.
 - `mockup/src/store/persist.ts`: AsyncStorage persistence; shared billing remains local, not database-backed multi-user functionality.
